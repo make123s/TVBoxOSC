@@ -79,7 +79,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://pan.vinua.cn/api/v3/file/source/36082/%E4%B8%83%E4%B8%83B%E7%AB%99%E7%9B%B8%E5%A3%B0%E7%AD%890625jar%20-%20%E5%89%AF%E6%9C%AC.json?sign=j-H2V9rcJB2b_Ej_M80R9KfcqH4htwPV5_DCSjHKX_I%3D%3A0");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://ghproxy.com/https://raw.githubusercontent.com/cao52caoyyds/ITV2022/main/CatTV/CB/bc2.json");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
